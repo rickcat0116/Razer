@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@media all and (max-width:1200px){
+    #header .wrap .gap .right #aside ul li:nth-child(2) {display:none;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-nav a {padding:0 15px}
+}
+
+@media all and (max-width:1200px) and (orientation:landscape){
+    #header .wrap .gap .right #aside ul li:nth-child(2) {display:none;}
+}
+
+@media all and (max-width:1200px) and (orientation:portrait){
+    #header .wrap .gap .right #aside ul li:nth-child(2) {display:none;}
+}
+
+@media all and (max-width:1000px){
+}
+
+@media all and (max-width:1024px){
+    #main #section02 {padding:30px 0;}
+
+    #main #section02 .s2-wrap .s2-left-wrap,
+    #main #section02 .s2-wrap .s2-right-wrap {float:none;width:80%;margin:0 auto;}
+
+    #main #section02 .s2-wrap .s2-right-wrap {width:77%;padding-top:50px;text-align:center;}
+
+    #main #section03 {padding:30px 0;}
+
+    #main #section03 .s3-wrap .s3-left-wrap,
+    #main #section03 .s3-wrap .s3-right-wrap {float:none;width:80%;margin:0 auto;}
+
+    #main #section03 .s3-wrap .s3-right-wrap {width:77%;text-align:center;padding-bottom:50px;}
+}
+
+@media all and (max-width:990px){
+    #main #section02 {padding:80px 0;}
+    #main #section02 .s2-wrap .s2-left-wrap{padding-bottom:100px;}
+    #main #section02 .s2-wrap .s2-left-wrap,
+    #main #section02 .s2-wrap .s2-right-wrap {width:80%;}
+    #main #section02 .s2-wrap .s2-right-wrap {width:77%;}
+    #main #section02 .s2-wrap .s2-left-wrap .gap .content span a {display:inline-block;}
+
+    #main #section03 {padding:80px 0;}
+
+}
+
+@media all and (max-width:990px){
+    #header .wrap .gap .left #nav {display:none;}
+    #header .wrap .gap .left .logo i {display:none;}
+    #header .wrap .gap .right #aside {display:none;}
+    #header .wrap .gap .right .mobile {display:block;}
+}
+
+@media all and (max-width:990px) and (orientation:landscape){
+}
+
+@media all and (max-width:990px) and (orientation:portrait){
+    .goTop {right:10px;}
+}
+
+@media all and (max-width:980px){
+    #main #section01 .s1-wrap .s1-gap .s1-container .s1-content .support li div a {font-size:24px;}
+    #main #section01 .s1-wrap .s1-gap .s1-container .s1-content .support li div a.support-img-btn img {width:200px;}
+
+}
+
+@media all and (max-width:960px){
+    #main #section03 .s3-wrap .s3-right-wrap .s3-right-gap .s3-right-content {top:40px;}
+
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-nav a {padding:0 20px 0 5px;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-nav a:last-child {padding: 0;}
+
+}
+
+@media all and (max-width:870px){
+    #main #section03 .s3-wrap .s3-right-wrap .s3-right-gap .s3-right-content {top:40px;}
+
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-nav {height:auto;}
+}
+
+@media all and (max-width:760px) {
+    #main  #section01 .slide-container .slide-view .slide-wrap .slide1 div {background:url(../img/bg2.jpg) no-repeat 50% 50%;background-size:cover;}
+    #main  #section01 .slide-container .slide-view .slide-wrap .slide2 div {background:url(../img/bg3.jpg) no-repeat 55% 0;background-size:cover;}
+    #main  #section01 .slide-container .slide-view .slide-wrap .slide3 div {background:url(../img/bg4.jpg) no-repeat 50% 50%;background-size:cover;}
+    #main  #section01 .slide-container .slide-view .slide-wrap .slide4 div {background:url(../img/bg5.jpg) no-repeat 50% 80%;background-size:cover;}
+
+    #main #section02 {padding:50px 0;}
+    #main #section02 .s2-wrap .s2-left-wrap{padding-bottom:100px;}
+    #main #section02 .s2-wrap .s2-left-wrap,
+    #main #section02 .s2-wrap .s2-right-wrap {width:100%;}
+    #main #section02 .s2-wrap .s2-right-wrap {width:90%;}
+
+    #main #section03 {padding:40px 0;}
+    #main #section03 .s3-wrap .s3-left-wrap {width:100%;}
+    #main #section03 .s3-wrap .s3-right-wrap {width:100%;}
+    #main #section03 .s3-wrap .s3-right-wrap {width:90%;}
+
+    #main #section04 {padding-top:70px;}
+    #main #section04 .s4-wrap .s4-gap .s4-container .s4-content {padding-top:40px;}
+    #main #section04 .s4-wrap .s4-gap .s4-container .s4-content .gallery-nav   {padding-bottom:20px;}
+    #main #section04 .s4-wrap .s4-gap .s4-container .s4-content .gallery-nav ul li  {display:block;margin:0;padding-bottom:15px;}
+    #main #section04 .s4-wrap .s4-gap .s4-container .s4-content .gallery-nav ul li a {display:inline-block;}
+
+    #main #section05 .s5-container .headline {font-size:3.25em;}
+    #main #section05 .s5-container .headline2 {font-size:2.75em;}
+    #main #section05 .s5-container .countdown ul li {font-size: 1.125rem;padding: .75rem;}
+    #main #section05 .s5-container .countdown ul li span {font-size: 3.375rem;}
+
+    #footer {padding:10px 0;}
+    #footer .footer-wrap .footer-menu-wrap {display:none;}
+    #footer .footer-wrap .footer-icon {display:none;}
+    #footer .footer-wrap .mobile-footer-menu  {display:block;padding-bottom:20px;}
+
+    #main #section01 .s1-wrap .s1-gap .s1-content .main-content .left {float:none;width:100%;padding-bottom:10px;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .main-content .right {float:none;width:100%;}
+
+}
+
+@media all and (max-width:660px){
+    #main #section05 {background:url(../img/countdown2.png) no-repeat 50% 50%; background-size:cover;}
+
+}
+
+@media all and (max-width:650px){
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-nav {height:auto;}
+
+}
+
+@media all and (max-width:580px){
+    #main #section03 .s3-wrap .s3-right-wrap .s3-right-gap .s3-right-content {top:5px;}
+    #footer .footer-wrap .logo-copyright span {font-size:11px;}
+
+    #main #section01 .s1-wrap .s1-gap .s1-container .s1-title h3 {font-size:11px;color:#fff;font-weight:700;letter-spacing:0.26px;padding-top:5px;}
+    #main #section02 .s2-wrap .s2-gap .content span a {width:400px;height:40px;line-height:40px;margin-top:0px;display:inline-block;font-weight:400;font-size:18px;}
+
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-content .left span i {font-size:16px;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-content .left span a {font-size:9px;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-content .right span i {font-size:16px;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-content .right span:first-child i {font-size:12px;}
+    #main #section01 .s1-wrap .s1-gap .s1-content .header-content .right span a {font-size:9x;}
+}

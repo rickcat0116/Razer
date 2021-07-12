@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Razer | For Gamers. By Gamers</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="Razeer">
+    <meta name="Pusblisher" content="osj">
+    <meta name="Author-date" content="2020-11-20">
+    <meta name="Author" content="Razer">
+    <meta name="Copyright" content="Razer">
+    <meta name="Keywwords" content="Razer, 웹표준, 웹접근성, Razer, Razer 반응형 웹사이트">
+    <meta name="Description" content="For Gamers. By Gamers">
+    <meta name="Robots" content="index, follow">
+
+    <link rel="shortcut icon" href='./img/razer.png'>
+    <link rel="apple-touch-icon" href='./img/razer.png'>
+
+    <!-- 오픈 아이콘 -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/respons.css">
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.css">
+    
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+    <script src="./js/lib/jquery.touchSwipe.js"></script>
+      <!-- <script src="./js/lib/prefixfree.min.js"></script> -->
+    <!--    
+    웹 브라우저의 엔진 폴리필 밴더프리픽스 
+    크롬, 사파리    -webkit-transition:all 0.3s;
+    파이어폭스         -moz-transition:all 0.3s;
+    익스프롤러          -ms-transition:all 0.3s;
+    오페라               -o-transition:all 0.3s;
+                            transition:all 0.3s;
+    -->
+    <script src="./js/lib/jquery.easing.1.3.js"></script>
+    <script src="./js/fullpage.js"></script>
+
+    <!-- 조건 주석문 익스프롤러 하위 IE9 IE8 IE7 폴리필 -->
+    <!-- 스크립트 스타일 -->
+    
+   <!--[if lte IE 9]>
+        <script src="./js/lib/IE9.js"></script>        
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+        <script src="./js/lib/html5shiv.min.js"></script>
+        <script src="./js/lib/jqPIE.js"></script>
+        <script src="./js/lib/PIE.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/ie8.css">
+    <![endif]-->
+
+    <!--[if lte IE 7]>
+        <script>            
+        </script>
+        <link rel="stylesheet" type="text/css" href="./css/ie7.css">
+    <![endif]--> 
+    <style>
+        .up-on-scroll {
+         transition: transform 0.7s, opacity 1s;
+     }
+    </style>
+</head>
+<body id="intro">
+    <ul id="skip">
+        <li><a href="#header" title="메뉴바로가기">메뉴바로가기</a></li>
+        <li><a href="#main" title="메인바로가기">메인바로가기</a></li>
+        <li><a href="#footer" title="하단바로가기">하단바로가기</a></li>
+    </ul>
+
+    <header id="header" class="addMobile">
+        <div class="wrap">
+            <div class="gap fixedclear">
+                <div class="left">
+                    <!-- width 90 -->
+                    <h1 class="logo"><a href="#intro" class="logo-btn smooth-btn"><img src="./img/razer.svg" alt="logo"></a></h1>
+                    <nav id="nav">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" class="main-btn main-btn1" title="HARDWARE">HARDWARE<span class="border"></span></a>
+                                <div class="sub sub1">
+                                    <ul>
+                                        <li> 
+                                             <div class="sub-wrap">
+                                                <ul class="fixedclear">
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">PC</a></li>
+                                                            <li><a href="#">PERIPHERALS</a></li>
+                                                            <li><a href="#">MOBILE</a></li>
+                                                            <li><a href="#">LIFESTYLE</a></li>
+                                                            <li><a href="#">CUSTOMS & COLLABS</a></li>
+                                                            <li><a href="#">PAY & REWARDS</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>  
+                                            </div>   
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="main-btn main-btn2" title="SOFTWARE">SOFTWARE<span class="border"></span></a>
+                                <div class="sub sub2">
+                                    <ul>
+                                        <li> 
+                                             <div class="sub-wrap">
+                                                <ul class="fixedclear">
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">SOFTWARE GUIDE</a></li>
+                                                            <li><a href="#">RAZOR ID</a></li>
+                                                            <li><a href="#">THX SPATIAL AUDIO</a></li>
+                                                            <li><a href="#">RAZER GOLD & SLIVER</a></li>
+                                                            <li><a href="#">CORTEX</a></li>
+                                                            <li><a href="#">SYNAPSE 3 IOT DRIVERS</a></li>
+                                                            <li><a href="#">SYNAPSE 2.0 (LEGACY)</a></li>
+                                                            <li><a href="#">TIPSTREAM (BETA)</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>  
+                                            </div>   
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="main-btn main-btn3" title="COMMUNITY">COMMUNITY<span class="border"></span></a>
+                                <div class="sub sub3">
+                                    <ul>
+                                        <li> 
+                                             <div class="sub-wrap">
+                                                <ul class="fixedclear">
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">RAZOR INSIDER</a></li>
+                                                            <li><a href="#">SOCIAL</a></li>
+                                                            <li><a href="#">TEAM RAZOR</a></li>
+                                                            <li><a href="#">DEVELOPRES</a></li>
+                                                            <li><a href="#">DOWNLOADS</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>  
+                                            </div>   
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                                <li><a href="./sub/store.html" class="main-btn main-btn4" title="STORE">STORE<span class="border"></span></a></li>
+                                <li><a href="./sub/support.html" class="main-btn" title="SUPPORT">SUPPORT<span class="border"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="right">
+                    <aside id="aside">
+                        <ul>
+                            <li><a href="#" title="#"><i class="fa fa-user-circle"></i></a></li>
+                            <li><a href="#" title="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </aside>
+                    <div class="mobile">
+                        <a href="#" class="mobile-btn">
+                            <i class="m-line m-line1"></i>
+                            <i class="m-line m-line2"></i>
+                            <i class="m-line m-line3"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="mobile-menu">
+                        <ul>
+                            <li>
+                                <a href="javascript:0" class="mobile-menu-btn mobile-menu-btn1" title="HARDWARE">HARDWARE</a>
+                                <div class="mSub mSub1">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn1" title="PC">PC</a></li>
+                                        <li><a href="#" class="sub-btn2" title="PERIPHERALS">PERIPHERALS</a></li>
+                                        <li><a href="#" class="sub-btn3" title="MOBILE">MOBILE</a></li>
+                                        <li><a href="#" class="sub-btn4" title="LIFESTYLE">LIFESTYLE</a></li>
+                                        <li><a href="#" class="sub-btn5" title="CUSTOMS & COLLABS">CUSTOMS & COLLABS</a></li>
+                                        <li><a href="#" class="sub-btn6" title="PAY & REWARDS">PAY & REWARDS</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:0" class="mobile-menu-btn mobile-menu-btn2" title="SOFTWARE">SOFTWARE</a>
+                                <div class="mSub mSub2">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn1" title="SOFTWARE GUIDE">SOFTWARE GUIDE</a></li>
+                                        <li><a href="#" class="sub-btn2" title="RAZOR ID">RAZOR ID</a></li>
+                                        <li><a href="#" class="sub-btn3" title="THX SPATIAL AUDIO">THX SPATIAL AUDIO</a></li>
+                                        <li><a href="#" class="sub-btn4" title="RAZER GOLD & SLIVER">RAZER GOLD & SLIVER</a></li>
+                                        <li><a href="#" class="sub-btn5" title="CORTEX">CORTEX</a></li>
+                                        <li><a href="#" class="sub-btn6" title="SYNAPSE 3 IOT DRIVERS">SYNAPSE 3 IOT DRIVERS</a></li>
+                                        <li><a href="#" class="sub-btn7" title="SYNAPSE 2.0 (LEGACY)">SYNAPSE 2.0 (LEGACY)</a></li>
+                                        <li><a href="#" class="sub-btn8" title="TIPSTREAM (BETA)">TIPSTREAM (BETA)</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:0" class="mobile-menu-btn mobile-menu-btn3" title="COMMUNITY">COMMUNITY</a>
+                                <div class="mSub msub3">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn1" title="RAZOR INSIDER">RAZOR INSIDER</a></li>
+                                        <li><a href="#" class="sub-btn2" title="SOCIAL">SOCIAL</a></li>
+                                        <li><a href="#" class="sub-btn3" title="TEAM RAZOR">TEAM RAZOR</a></li>
+                                        <li><a href="#" class="sub-btn4" title="DEVELOPRES">DEVELOPRES</a></li>
+                                        <li><a href="#" class="sub-btn5" title="DOWNLOADS">DOWNLOADS</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="./sub/store.html" class="mobile-menu-btn" title="STORE">STORE</a></li>
+                            <li><a href="./sub/support.html" class="mobile-menu-btn" title="SUPPORT">SUPPORT</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="section01" class="wheel-event">
+            <h2 class="hide">섹션1</h2>
+            <div class="slide-container">
+                <div class="slide-view">
+                    <ul class="slide-wrap">
+                        <li class="slide slide0"><div></div></li>
+                        <li class="slide slide1"><div></div></li>
+                        <li class="slide slide2"><div></div></li>
+                        <li class="slide slide3"><div></div></li>
+                        <li class="slide slide4"><div></div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slider">
+              <a href="#"><span class="slider-bar current"></span></a>
+              <a href="#"><span class="slider-bar"></span></a>
+              <a href="#"><span class="slider-bar"></span></a>
+              <a href="#"><span class="slider-bar"></span></a>
+              <a href="#"><span class="slider-bar"></span></a>
+            </div>
+        </section>
+
+        <section id="section02" class="wheel-event">
+            <h2 class="hide">섹션2</h2>
+            <div class="s2-wrap fixedclear"> 
+                <div class="s2-left-wrap"> 
+                    <div class="s2-left-gap">
+                        <div class="s2-left-content section02-left">
+                            <img src="./img/cyberpunk_logo.png" alt="">
+                             <img src="./img/razer-viper-ultimate-cyberpunk-2077-logo.svg" alt="viper-logo">
+                             <span>
+                                 <a href="#" class="view-btn">SHOP NOW</a>
+                             </span>
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="s2-right-wrap">
+                     <div class="s2-right-gap">
+                        <div class="s2-right-content section02-right">
+                            <img src="./img/razer-viper-ultimate-cyberpunk-1-removebg.png" alt="viper">
+                        </div>
+                     </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="section03" class="wheel-event">
+            <h2 class="hide">섹션3</h2>
+            <div class="s3-wrap fixedclear"> 
+                <div class="s3-left-wrap"> 
+                    <div class="s3-left-gap">
+                        <div class="s3-left-content section03-left up-on-scroll">
+                             <img src="./img/hammerhead.png" alt="hammerhead">
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="s3-right-wrap">
+                     <div class="s3-right-gap">
+                        <div class="s3-right-content section03-right up-on-scroll">
+                            <img src="./img/hammerhead_logo.png" alt="hammerhead-logo">
+                            <span>
+                                <a href="#" class="view-btn">SHOP NOW</a>
+                            </span>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 모달 갤러리 -->
+        <section id="section04" class="wheel-event">
+            <div class="s4-wrap">
+                <div class="s4-gap">
+                    <div class="s4-container">
+                        <div class="s4-title section-title">
+                            <h2>WELCOME TO RAZOR STORE</h2>
+                            <div><img src="./img/separator.png" alt=""></div>
+                        </div>
+
+                        <div class="s4-content">
+                        <nav class="gallery-nav">
+                            <ul>
+                                <li><a href="#" class="gallery-btn addNav">ALL</a></li>
+                                <li><a href="#" class="gallery-btn">MOUSE</a></li>
+                                <li><a href="#" class="gallery-btn">KEYBOARD</a></li>
+                                <li><a href="#" class="gallery-btn">HEADSET</a></li>
+                                <li><a href="#" class="gallery-btn">LIFESTYLE</a></li>
+                            </ul>
+                        </nav>
+
+                            <ul class="gallery fixedclear">
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-11.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-12.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-13.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-14.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-15.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-16.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-17.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-18.jpg" alt="">
+                                        </a>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-19.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>    
+                                    <div>
+                                        <a href="#" class="gallery-img-btn">
+                                            <img src="./img/modal-20.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section05" class="wheel-event">
+            <div class="s5-container">
+                <h2 id="headline">HOLIDAY EDITION</h2>
+                <h3 id="headline2">01.01.22 | 6:30 PST</h3>
+                <div class="countdown">
+                    <ul id="zero">
+                        <li><span id="days"></span>D</li>
+                        <li><span id="hours"></span>H</li>
+                        <li><span id="minutes"></span>M</li>
+                        <li><span id="seconds"></span>S</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="wheel-event">
+        <div class="footer-wrap">
+            <div class="footer-menu-wrap">
+                <ul class="fixedclear">
+                    <li>
+                        <dl>
+                            <dt>Our Network</dt>
+                            <dt><a href="#" title="Razer.com">Razer.com</a></dt>
+                            <dt><a href="#" title="Razer Gold & Silver">Razer Gold & Silver</a></dt>
+                            <dt><a href="#" title="Razer Pay">Razer Pay</a></dt>
+                            <dt><a href="#" title="Game Deals">Game Deals</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Shop</dt>
+                            <dt><a href="./sub/store.html" title="RazerStore(Online)">RazerStore(Online)</a></dt>
+                            <dt><a href="#" title="RazerStore(Retail)">RazerStore(Retail)</a></dt>
+                            <dt><a href="#" title="Store Locator">Store Locator</a></dt>
+                            <dt><a href="#" title="My Account">My Account</a></dt>
+                            <dt><a href="#" title="Newsletter">Newslette</a></dt>
+                            <dt><a href="#" title="Affiliate">Affiliate</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Software/Services</dt>
+                            <dt><a href="#" title="Razer ID">Razer ID</a></dt>
+                            <dt><a href="#" title="Synapse 3">Synapse 3</a></dt>
+                            <dt><a href="#" title="Chroma">Chroma</a></dt>
+                            <dt><a href="#" title="Cortex">Cortex</a></dt>
+                            <dt><a href="#" title="Developer Portal">Developer Portal</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Company</dt>
+                            <dt><a href="#" title="About Razer">About Razer</a></dt>
+                            <dt><a href="#" title="Press Room">Press Room</a></dt>
+                            <dt><a href="#" title="Investor Relation">Investor Relation</a></dt>
+                            <dt><a href="#" title="Careers">Careers</a></dt>
+                            <dt><a href="#" title="zVentures">zVentures</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Need Help?</dt>
+                            <dt><a href="./sub/support.html" title="Support">Support</a></dt>
+                            <dt><a href="#" title="Warranty">Warranty</a></dt>
+                            <dt><a href="#" title="Contact Us">Contact Us</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Connect</dt>
+                            <dt><a href="#" title="Get Started">Get Started</a></dt>
+                            <dt><a href="#" title="Insider">Insider</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-icon">
+                <ul class="icons">  
+                    <li><a href="#" title="facebook"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href="#" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-footer-menu">
+                <ul>
+                    <li>
+                        <a href="javascript:0" class="footer-btn" title="Our Network">Our Network</a>
+                        <div class="fSub fSub1">
+                            <ul>
+                                <li><a href="javascript:0" class="fsub-btn1" title="Razer.com">Razer.com</a></li>
+                                <li><a href="javascript:0" class="fsub-btn2" title="Razer Gold & Silver">Razer Gold & Silver</a></li>
+                                <li><a href="javascript:0" class="fsub-btn3" title="Razer Pay">Razer Pay</a></li>
+                                <li><a href="javascript:0" class="fsub-btn4" title="Game Deals">Game Deals</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:0" class="footer-btn" title="Shop">Shop</a>
+                        <div class="fSub fSub2">
+                            <ul>
+                                <li><a href="./sub/store.html" class="fsub-btn1" title="RazerStore(Online)">RazerStore(Online)</a></li>
+                                <li><a href="javascript:0" class="fsub-btn2" title="RazerStore(Retail)">RazerStore(Retail)</a></li>
+                                <li><a href="javascript:0" class="fsub-btn3" title="Store Locator">Store Locator</a></li>
+                                <li><a href="javascript:0" class="fsub-btn4" title="My Account">My Account</a></li>
+                                <li><a href="javascript:0" class="fsub-btn5" title="Newslette">Newslette</a></li>
+                                <li><a href="javascript:0" class="fsub-btn6" title="Affiliate">Affiliate</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:0" class="footer-btn" title="Software / Services">Software / Services</a>
+                        <div class="fSub mSub3">
+                            <ul>
+                                <li><a href="javascript:0" class="fsub-btn1" title="Razer ID">Razer ID</a></li>
+                                <li><a href="javascript:0" class="fsub-btn2" title="Synapse 3">Synapse 3</a></li>
+                                <li><a href="javascript:0" class="fsub-btn3" title="Chroma">Chroma</a></li>
+                                <li><a href="javascript:0" class="fsub-btn4" title="Cortex">Cortex</a></li>
+                                <li><a href="javascript:0" class="fsub-btn5" title="Developer Portal">Developer Portal</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:0" class="footer-btn" title="Company">Company</a>
+                        <div class="fSub mSub4">
+                            <ul>
+                                <li><a href="javascript:0" class="fsub-btn1" title="About Razer">About Razer</a></li>
+                                <li><a href="javascript:0" class="fsub-btn2" title="Press Room">Press Room</a></li>
+                                <li><a href="javascript:0" class="fsub-btn3" title="Investor Relation">Investor Relation</a></li>
+                                <li><a href="javascript:0" class="fsub-btn4" title="Careers">Careers</a></li>
+                                <li><a href="javascript:0" class="fsub-btn5" title="zVentures">zVentures</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:0" class="footer-btn" title="Need Help?">Need Help?</a>
+                        <div class="fSub mSub5">
+                            <ul>
+                                <li><a href="./sub/support.html" class="fsub-btn1" title="Support">Support</a></li>
+                                <li><a href="javascript:0" class="fsub-btn2" title="Warranty">Warranty</a></li>
+                                <li><a href="javascript:0" class="fsub-btn3" title="Contact Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:0" class="footer-btn" title="Connect">Connect</a>
+                        <div class="fSub mSub6">
+                            <ul>
+                                <li><a href="javascript:0" class="fsub-btn1" title="Get Started">Get Started</a></li>
+                                <li><a href="javascript:0" class="fsub-btn2" title="Insider">Insider</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="logo-copyright">
+                <span>&copy; 2020 Razer Inc. All rights reserved. | Legal Terms | Privacy Policy | Cookie Policy </span>
+            </div>
+
+
+            
+        </div>
+    </footer>
+
+    <div class="goTop">
+        <a href="#wrap" class="goTop-btn" title="goTop"><i class="material-icons">keyboard_arrow_up</i></a>
+    </div>
+            
+    <!-- 모달 팝업 -->
+    <div class="modal">
+        <div class="modal-img-wrap">
+            <a href="javascript:void(0)" class="modal-img-btn"><img src="./img/modal-11.jpg" alt=""></a>
+        </div>
+
+        <span class="modal-arrow-left">
+            <a href="javascript:void(0)" class="modal-arrow-left-btn"><img src="./img/arrow-left1.png" alt="arrow"></a>
+        </span>
+
+        <span class="modal-arrow-right">
+            <a href="javascript:void(0)" class="modal-arrow-right-btn"><img src="./img/arrow-right1.png" alt="arrow"></a>
+        </span>
+
+        <span class="modal-close">
+            <a href="javascript:void(0)" class="modal-close-btn" title="close">×</a>
+        </span>
+    </div>
+
+    <script src="./js/razer.js"></script>
+</body>
+</html>
